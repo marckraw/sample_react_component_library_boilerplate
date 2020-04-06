@@ -1,12 +1,9 @@
 {
-  "name": "sample_react_library",
-  "version": "1.0.0",
-  "description": "This is a sample boilerplate for React Component Library",
+  "name": "@amazzzing/test-component-from-boilerplate",
+  "description": "Test component from boilerplate",
+  "author": "Marcin Krawczyk",
+  "version": "0.0.1",
   "main": "dist/build.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NGimhana/sample_react_component_library_boilerplate"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production"
@@ -15,13 +12,12 @@
     "react",
     "components"
   ],
-  "author": "Nadeeshan Gimhana",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
     "babel-loader": "^8.0.5",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0"
@@ -29,8 +25,11 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "axios": ">=0.18.1",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.15",
+    "prop-types": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "prop-types": "latest"
+    "react-intersection-observer": "^8.26.1"
   }
 }

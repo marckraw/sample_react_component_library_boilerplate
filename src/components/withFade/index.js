@@ -15,6 +15,6 @@
  * limitations under the License.
  */
 // Import the Product component from this folder and send it down to ./components/index.js
-import Product from './Product';
+import withFade from './withFade';
 
-export default Product;
+export default withFade;
